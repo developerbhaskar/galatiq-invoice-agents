@@ -1,0 +1,13 @@
+# Core runtime : runs fully offline with just these.
+pdfplumber>=0.11        # PDF text extraction
+rich>=13.0              # colorized CLI logs
+
+# Dashboard : streamlit run app.py
+streamlit>=1.30
+pandas>=2.0
+
+# Gemini reasoning (uses the OpenAI-compatible client)
+openai>=1.0
+
+# Tests
+pytest>=7.0

@@ -1,0 +1,37 @@
+# Generated at runtime
+inventory.db
+audit_logs/
+report_output/
+*.log
+
+# Secrets — never commit your API key
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+
+node_modules/
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+coverage/
+*.pem
+credentials.json
+service-account.json
